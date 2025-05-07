@@ -21,8 +21,8 @@ logger = logging.getLogger(__name__)
 
 # Load environment variables
 load_dotenv()
-PNW_API_KEY = 7d58ca300d0ac2f7b373
-DISCORD_TOKEN = MTM1NTA2MjA3MzU3MDA5OTMwMA.GuzVw0.BK5lYiBedRodL1oY7V0XDFu79PhWFAFti_jPgo
+PNW_API_KEY = "7d58ca300d0ac2f7b373"
+DISCORD_TOKEN = "MTM1NTA2MjA3MzU3MDA5OTMwMA.GuzVw0.BK5lYiBedRodL1oY7V0XDFu79PhWFAFti_jPgo"
 GRAPHQL_URL = "https://api.politicsandwar.com/graphql?api_key=" + PNW_API_KEY
 
 
